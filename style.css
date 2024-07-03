@@ -48,3 +48,38 @@ header {
     background-color: #555;
     color: white;
 }
+
+section.content {
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+}
+
+section.content .text {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+section.content .text h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+section.content .text p {
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+
+section.content .image {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
