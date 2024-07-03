@@ -20,6 +20,7 @@
         }
 
         nav a {
+            font-size: medium;
             margin: 0 10px;
             color: #ff6600;
             text-decoration: none;
